@@ -1,0 +1,18 @@
+package Termometro;
+
+/**
+ *
+ * @author Edvin Vasquez
+ */
+
+
+public class Termometro {
+    private double temperaturaCelsius;
+
+    public Termometro(double temperaturaInicial) {
+        this.temperaturaCelsius = temperaturaInicial;
+    }
+
+    public double getTemperaturaCelsius() {
+        return temperaturaCelsius;
+    }
